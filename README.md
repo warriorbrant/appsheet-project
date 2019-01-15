@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##This project contains two components
+
+one front-end and one back-end, the from-end exists in the app.js and the back exists in the server.js
+In order to run , please first start node server and then open the react app.It will be slow when you run it first time because of the cold start reason(the server has to fetch the data and process data from the URL) and then the processed data will be cached in the memory and when you query after that, it will be fast.
+
+In order to test the application, we can do some intergration test.
+
 ## Available Scripts
 
 In the project directory, you can run:
